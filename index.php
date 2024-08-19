@@ -15,7 +15,7 @@
                 <h5 class="card-title mb-0">Cadastro</h5>
             </div>
             <div class="card-body">
-                <form method="post" action="cadastro.php">
+                <form method="post" action="submit-form.php">
                     <div class="mb-3">
                         <label for="name" class="form-label">Nome</label>
                         <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" required>
