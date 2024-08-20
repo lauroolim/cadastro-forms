@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +30,7 @@
                     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
                     // Consultando os dados dos usuários
-                    $stmt = $pdo->query('SELECT name, email, password FROM users');
+                    $stmt = $pdo->query('SELECT id, name, email, password FROM users');
 
                     // Exibindo os dados na tabela
                     while ($user = $stmt->fetch(PDO::FETCH_ASSOC)) {
