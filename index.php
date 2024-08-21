@@ -33,6 +33,7 @@
                         <label class="form-check-label" for="rememberMe">Remember me</label>
                     </div>
                     <button type="submit" class="btn btn-primary" name="cadastrar">Submit</button>
+                    <a href="login.php" class="btn btn-primary">admin painel</a>
                 </form>
             </div>
         </div>
